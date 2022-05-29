@@ -1,6 +1,20 @@
 #body {
-    background-color: aqua;
+    background-color: rgb(228, 230, 230);
 }
+/* website nav bar */
+.dropdown {
+    position: absolute;
+    z-index: 100;
+}
+
+.dropdown-menu{
+    background-color: rgb(228, 230, 230);
+}
+
+#dropdownMenuLink {
+    color:black
+}
+
 /* This container includes out table and our canvas*/
 .center-container {
     /* This property set the width of our container. */
