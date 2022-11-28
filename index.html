@@ -1,64 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tic Tac Toe</title>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href=".//images/icon_image.png" type="image/icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A classic game of tic tac toe vs the computer"
+    />
+    <meta
+      name="keywords"
+      content=" tic tac toe, vs, computer, game, old school"
+    />
 
-        <!-- bootstrap links-->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Bootstrap Links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
 
-        <link rel="stylesheet" type="text/css" href="./CSS/game.css">
-        <script src="./JavaScript/tictactoe.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/game.css" />
+    <script src="./JavaScript/tictactoe.js" defer></script>
+  </head>
+  <body id="body">
 
-    </head>
-    <body id="body">
-<!--OTHER WEBSITE LINKS DROPDOWN MENU-->
+    <!--Dropdown Menu for Other Websites-->
     <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle bg-transparent border-1" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      <a
+        class="btn btn-secondary dropdown-toggle bg-transparent"
+        role="button"
+        id="dropdownMenuLink"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
         Websites
-        </a>
-            <ul class="dropdown-menu  border-1 " aria-labelledby="dropdownMenuLink" >
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Portfolio-Website/"  >Portfolio Website</a></li>
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Academy_Cinemas/"  >Academy Cinemas Website</a></li>
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Slideshow_and_Countdown/"  >SlideShow and Countdown</a></li>
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Single_page_Website/"  >Single Page Website</a></li>
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Calculator_App/"  >Calculator App</a></li>
-            <li><a class="dropdown-item" href="https://evanm02.github.io/The_Space_Station/"  >The Space Station Website</a></li>
-	    <li><a class="dropdown-item" href="https://evanm02.github.io/Tic_Tac_Toe/"  >Tic Tac Toe</a></li>    
-            <li><a class="dropdown-item" href="https://evanm02.github.io/Pizza_Website/"  >Pizza Website</a></li>     
-            <li><a class="dropdown-item" href="https://evanm02.github.io/To_Do_App/"  >To Do App</a></li>
-	    <li><a class="dropdown-item" href="https://evanm02.github.io/Tip_and_Tax_Calculator/"  >Tip and Tax Calculator</a></li> 
-            </ul>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Portfolio-Website/"
+            >Portfolio Website</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Academy_Cinemas/"
+            >Academy Cinemas Website</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Slideshow_and_Countdown/"
+            >SlideShow and Countdown</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Single_page_Website/"
+            >Single Page Website</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Calculator_App/"
+            >Calculator App</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/The_Space_Station/"
+            >The Space Station Website</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" href="https://evanm02.github.io/Tic_Tac_Toe/"
+            >Tic Tac Toe</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Pizza_Website/"
+            >Pizza Website</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" href="https://evanm02.github.io/To_Do_App/"
+            >To Do App</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            href="https://evanm02.github.io/Tip_and_Tax_Calculator/"
+            >Tip and Tax Calculator</a
+          >
+        </li>
+      </ul>
     </div>
-<!--END OF DROP DOWN MENU-->
-        <h1>Welcome to the simple game of tic tac toe</h1>
-        <!--This container is needed to cover the canvas over our table-->
-        <div class="center-container">
-            <!--Note: Canvas width and height must be set within the element.-->
-            <canvas id="Win-lines" width="608" height="608"></canvas>
-            <table>
-                <tr>
-                    <td id="0" onclick="placeXOrO('0')"></td>
-                    <td id="1" onclick="placeXOrO('1')"></td>
-                    <td id="2" onclick="placeXOrO('2')"></td>
-                </tr>
-                <tr>
-                    <td id="3" onclick="placeXOrO('3')"></td>
-                    <td id="4" onclick="placeXOrO('4')"></td>
-                    <td id="5" onclick="placeXOrO('5')"></td>
-                </tr>
-                <tr>
-                    <td id="6" onclick="placeXOrO('6')"></td>
-                    <td id="7" onclick="placeXOrO('7')"></td>
-                    <td id="8" onclick="placeXOrO('8')"></td>
-                </tr>
-            </table>
-        </div>
+    <!--END OF DROPDOWN MENU-->
 
-        
-    </body>
+    <main>
+      <h1>Welcome a game of tic tac toe</h1>
+      <!--This container is needed to cover the canvas over our table-->
+      <div class="center-container">
+        <!--Note: Canvas width and height must be set within the element.-->
+        <canvas id="Win-lines" width="608" height="608"></canvas>
+        <table>
+          <tr>
+            <td id="0" onclick="placeXOrO('0')"></td>
+            <td id="1" onclick="placeXOrO('1')"></td>
+            <td id="2" onclick="placeXOrO('2')"></td>
+          </tr>
+          <tr>
+            <td id="3" onclick="placeXOrO('3')"></td>
+            <td id="4" onclick="placeXOrO('4')"></td>
+            <td id="5" onclick="placeXOrO('5')"></td>
+          </tr>
+          <tr>
+            <td id="6" onclick="placeXOrO('6')"></td>
+            <td id="7" onclick="placeXOrO('7')"></td>
+            <td id="8" onclick="placeXOrO('8')"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    
+  </body>
 </html>
