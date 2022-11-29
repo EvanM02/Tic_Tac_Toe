@@ -16,7 +16,7 @@
 }
 .dropdown-menu {
   transition: all 0.5s ease-in-out;
-  background-color: #cdcdcd;
+  background-color: rgba(63, 94, 251, 1) ;
   border-width: 3px;
   box-shadow: 4px 4px black;
 }
